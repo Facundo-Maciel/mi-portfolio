@@ -1,0 +1,181 @@
+:root{
+  --color-principal:#F5EEDC;
+  --color-secundario:#D2FAFB;
+  --color-terciario:#6bc5d2;
+  --cuarto-color:#293461;
+  --color-white: #F5F5DC;
+  --color-contenedores: #fdfefe;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-secundario);
+  background-image: linear-gradient(to right, #64e6f2, #7eeaf3, #94eef4, #a8f1f6, #bbf5f8, #c2f3f4, #c9f0f1, #cfeeee, #cde5e5, #cadbdb, #c8d2d2, #c5c9c9);
+}
+
+.hijo{
+  background-color: var(--color-contenedores);
+  padding: 20px;
+  margin: 100px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 25px;
+  flex-wrap: wrap-reverse;
+}
+
+.hijob{
+  padding-top: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.contenedor-redes{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.icono{
+  /*  */height: 60px;
+  padding-left: 10px;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;  
+}
+
+.icono:hover{
+  width: 105%;
+}
+
+
+.hijoc{
+  /*  */height: 320px;
+  width: 100%;
+  border-radius: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.hijoa{
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+  width: 70%;
+}
+
+.hijod{
+  padding-top: 10px;
+}
+
+.hijo-dos{
+  padding: 10px;
+  margin: 60px;
+  border-radius: 25px;
+  height: 30%;
+}
+
+.hijo-tres{
+  background-color: var(--color-terciario);
+  width: 100%;
+  height: 25%;
+}
+
+.hijo-cuatro{
+  background-color: var(--cuarto-color);
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  text-decoration: white;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.nab{
+  background-color: var(--color-contenedores);
+  height: 20%;
+}
+
+.profesion{
+  color: blue;
+}
+
+
+.botton{
+  height: 60px;
+  background-color: var(--cuarto-color);
+  color: var(--color-white);
+  border-radius: 20%;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: medium;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.botton:hover{
+  background-color: #c5c9c9;
+  color: blue
+}
+
+.contenedor-tarjeta{
+  height: 300px;
+  width: 300px;
+  flex-direction: column;
+  background-color: var(--color-white);
+  border-radius: 5%;
+  justify-content: center; 
+}
+
+.botton-tarjeta{
+  height: 15%;
+  width: 100%;
+  background-color: var(--cuarto-color);
+  color: var(--color-white);
+  border-radius: 5%;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.botton-tarjeta:hover{
+  background-color: #c5c9c9;
+  color: blue
+}
+
+.foto-tarjeta{
+  height: 80%;
+  width: 100%;
+  padding: 2%;
+  justify-content: center;
+}
+
+.titulo-tarjeta{
+  justify-content: center;
+  padding: 10PX;
+  text-align: center;
+}
+
+.titulos-general{
+  justify-content: center;
+  padding: 10PX;
+  padding: 10pxs;
+  text-align: center;
+}
+
+.seccion-certificados{
+  display: flex;
+  flex-wrap: wrap;
+}
