@@ -21,7 +21,7 @@ body{
 .hijo{
   background-color: var(--color-contenedores);
   padding: 20px;
-  margin: 100px;
+  margin: 70px;
   margin-top: 10px;
   display: flex;
   border-radius: 25px;
@@ -80,6 +80,8 @@ body{
   margin: 60px;
   border-radius: 25px;
   height: 30%;
+  justify-content: center;
+  text-align: center;
 }
 
 .hijo-tres{
@@ -178,4 +180,6 @@ body{
 .seccion-certificados{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
