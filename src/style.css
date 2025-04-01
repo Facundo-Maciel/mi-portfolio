@@ -8,6 +8,11 @@
 }
 
 *{
+  box-sizing:border-box;
+}
+
+
+*{
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
@@ -182,4 +187,57 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+}
+
+@media(max-width: 993px){
+  body{
+    align-items: center;
+    align-content: center;
+    justify-content: center
+  }
+  
+  .hijo{
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+
+  .hijoa{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hijob{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hijoc{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .contenedor-redes{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
 }
