@@ -204,7 +204,8 @@ body{
     justify-content: center;
     width: 100%;
     flex-direction: column-reverse;
-    position: relative;
+    margin-top: 5%;
+    padding-top: 5%;
   }
 
   .hijoa{
@@ -239,5 +240,9 @@ body{
     align-content: center;
     text-align: center;
     flex-direction: column;
+  }
+
+  .icono{
+    padding-bottom: 10%;
   }
 }
