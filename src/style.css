@@ -189,7 +189,9 @@ body{
   text-align: center;
 }
 
-@media(max-width: 993px){
+
+
+@media(max-width: 768px){
   body{
     align-items: center;
     align-content: center;
@@ -197,7 +199,7 @@ body{
   }
   
   .hijo{
-    padding: 0%;
+    padding: 2%;
     margin: 0%;
     align-items: center;
     align-content: center;
@@ -206,6 +208,7 @@ body{
     flex-direction: column-reverse;
     margin-top: 5%;
     padding-top: 5%;
+    justify-content: space-between;
   }
 
   .hijoa{
@@ -214,16 +217,19 @@ body{
     width: 100%;
     text-align: center;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
   }
 
   .hijob{
-    padding: 0;
+    padding: 2%;
     margin: 0;
     align-items: center;
     align-content: center;
     width: 100%;
     text-align: center;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .hijoc{
@@ -240,6 +246,7 @@ body{
     align-content: center;
     text-align: center;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .icono{
