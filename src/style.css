@@ -18,6 +18,8 @@
   box-sizing: border-box;
 }
 
+
+  
 body{
   background-color: var(--color-secundario);
   background-image: linear-gradient(to right, #64e6f2, #7eeaf3, #94eef4, #a8f1f6, #bbf5f8, #c2f3f4, #c9f0f1, #cfeeee, #cde5e5, #cadbdb, #c8d2d2, #c5c9c9);
@@ -189,7 +191,131 @@ body{
   text-align: center;
 }
 
+@media (orientation: portrait){
+  body{
+    align-items: center;
+    align-content: center;
+    justify-content: center
+  }
+  
+  .hijo{
+    padding: 2%;
+    margin: 0%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    margin-top: 5%;
+    padding-top: 5%;
+    justify-content: space-between;
+  }
 
+  .hijoa{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  .hijob{
+    padding: 2%;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hijoc{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .contenedor-redes{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icono{
+    padding-bottom: 10%;
+  }
+}
+
+@media(max-width: 1200px ){
+  body{
+    align-items: center;
+    align-content: center;
+    justify-content: center
+  }
+  
+  .hijo{
+    padding: 2%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column-reverse;
+    margin-top: 5%;
+    padding-top: 5%;
+    justify-content: space-between;
+  }
+
+  .hijoa{
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+  }
+
+  .hijob{
+    padding: 2%;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hijoc{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .contenedor-redes{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .icono{
+    padding-bottom: 10%;
+  }
+}
 
 @media(max-width: 768px){
   body{
