@@ -112,7 +112,14 @@ body{
 
 .nab{
   background-color: var(--color-contenedores);
-  height: 20%;
+  height: 3em;
+  margin-bottom: 2em;
+}
+
+.nab > h2{
+    padding-left: 1vw;
+    padding-block: 1.5vh;
+
 }
 
 .profesion{
@@ -199,15 +206,14 @@ body{
   }
   
   .hijo{
-    padding: 2%;
-    margin: 0%;
+    padding: 1em;
     align-items: center;
     align-content: center;
     justify-content: center;
     width: 100%;
     flex-direction: column-reverse;
-    margin-top: 5%;
-    padding-top: 5%;
+    margin-top: 7em;
+    padding-top: 4em;
     justify-content: space-between;
   }
 
